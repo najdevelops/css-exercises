@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.first {
+  background-color: black;
+  color: white;
+}
+.second {
+  background-color: yellow;
+}
+.button.first,
+.button.second {
+  font-size: 28px;
+  font-family: "helvetica", "Times New Roman", Times, "sans-serif";
+}
+/* alternatively can just do .button or can remove the button class all together and group with .first,.second */
